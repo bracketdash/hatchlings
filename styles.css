@@ -1,0 +1,74 @@
+html,
+body {
+  background-color: #fff;
+  font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #369;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header > h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 20px 0;
+  user-select: none;
+  width: 352px;
+}
+
+.container > a {
+  color: #369;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  width: calc(50% - 10px);
+}
+
+.container > a > img {
+  border-radius: 20px;
+  border: 2px solid #369;
+  width: calc(100% - 4px);
+}
+
+.container > a:hover {
+  color: #47a;
+}
+
+.container > a:hover > img {
+  border-color: #47a;
+  opacity: 0.8;
+}
+
+.container > a:active {
+  color: #258;
+}
+
+.container > a:active > img {
+  border-color: #258;
+  opacity: 1;
+}
